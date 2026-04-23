@@ -54,4 +54,5 @@ dist/
 
 # Reports (generated, not source)
 bandit-report.json
-gitleaks-report.json
+gitleaks-report.json*.backup
+*.bak
