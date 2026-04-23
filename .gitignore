@@ -1,0 +1,57 @@
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+.installed.cfg
+
+# Python cache
+*.py[cod]
+__pycache__/
+*.so
+
+# Environment / Secrets (CRITICAL)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+credentials/
+
+# Logs (contain YOUR Windows paths)
+*.log
+mcp_debug.log
+crash.log
+scan_debug.log
+which_python.log
+claude_error.log
+
+# Local config (YOUR absolute paths)
+claude_desktop_config.json
+*.local.json
+
+# IDE / OS files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test / Build artifacts
+.pytest_cache/
+.tox/
+.mypy_cache/
+htmlcov/
+.coverage
+build/
+dist/
+*.egg
+*.whl
+
+# Reports (generated, not source)
+bandit-report.json
+gitleaks-report.json
